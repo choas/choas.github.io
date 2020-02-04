@@ -98,11 +98,11 @@ The following code finds all palindrome days within 10,000 years:
 {% highlight java %}
 Date d = new Date(-1900, 0, 1);
 while (d.getYear() < 10000 - 1900) {
-  d.setDate(d.getDate() + 1);
   SimpleDateFormat sdfOut = new SimpleDateFormat("dd.MM.yyyy");
   if (isPalindrome(sdfOut.format(d))) {
     System.out.println(sdfOut.format(d));
   }
+  d.setDate(d.getDate() + 1);
 }
 {% endhighlight %}
 
@@ -124,4 +124,4 @@ while (d.getYear() < 10000 - 1900) {
 ```
 
 <br />
-What happened that day? The Kansacity Chiefs 🏈 have won the Superbowl (US time) and are perhaps the only ones who have ever won it on a palindrome day.
+What happened that day? The Kansacity Chiefs 🏈 won the Superbowl (US time) and will probably be the only ones who won it on a palindrome day.
