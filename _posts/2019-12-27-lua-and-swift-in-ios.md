@@ -17,7 +17,7 @@ For these reasons I decided to integrate Lua into an iOS app, because if I ever 
 
 Lua is available as C code and can be compiled and integrated easily within Swift. [Lua is under the MIT license](https://www.lua.org/license.html) and can be used everywhere. On the internet you can find examples how to integrate C into Swift under [swift objective-c bridging](https://duckduckgo.com/?q=swift+objective-c+bridging). And I'm not the first who had the idea to integrate Lua into Swift.
 
-In the next few blog posts I will explain how to call Swift from Lua and then call Lua code again. The whole thing will be very recursive. But first we will write a Hello World application as a base and then we will build on that.
+In the [next blog posts](/2019/12/29/factorial-calculation-with-lua-and-swift/) I will explain how to call Swift from Lua and then call Lua code again. The whole thing will be very recursive. But first we will write a Hello World application as a base and then we will build on that. You can find the __[source code](https://github.com/choas/LuaSwift/tree/master/LuaSwiftHelloWorld)__ on Github.
 
 ## Hello World
 
@@ -222,8 +222,8 @@ But before you worry about memory leaks, your code should be running:
 - Select a Simulator
 - Product / Run
 
-Now you should see in the Output a `hello world`
+Now you should see in the Output a `hello world`.
 
 ## Next
 
-At the next blogpost I will integrated a factorial calculation.
+At the [next blog post](/2019/12/29/factorial-calculation-with-lua-and-swift/) I will integrate a factorial calculation.

@@ -9,13 +9,15 @@ tags: factorial-calculation lua
 
 > The result of multiplying a given number of consecutive integers from 1 to the given number. In equations, it is symbolized by an exclamation mark (!). For example, 5! = 1 × 2 × 3 × 4 × 5 = 120. -- [Wiktionary — factorial](https://en.wiktionary.org/wiki/factorial)
 
-In the previous blog post I showed how Lua can be integrated within Swift. In this blog post we will call a Lua function from Swift and print the result. For this I use a [Factorial](https://en.wikipedia.org/wiki/Factorial) example where the code is called recursively. In the next step / blogpost the Lua code will call the Swift code, which again calls the Lua code. This is a recursion within programming languages 🤯.
+In the [previous blog post](/2019/12/27/lua-and-swift-in-ios/) I showed how Lua can be integrated within Swift. In this blog post we will call a Lua function from Swift and print the result. For this I use a [factorial](https://en.wikipedia.org/wiki/Factorial) example where the code is called recursively. In the next step / blog post the Lua code will call the Swift code, which again calls the Lua code. This is a recursion within programming languages 🤯.
 
 But first we adapt the project for the Factorial Example. The following steps are necessary:
 
 - Factorial Lua Code
 - Implement call function
 - Adjust ViewController.swift
+
+You can find the __[source code](https://github.com/choas/LuaSwift/tree/master/LuaSwiftFactorial)__ on Github.
 
 ## Factorial Lua Code
 
@@ -56,7 +58,7 @@ Insert the following code into the __luaWrapper.h__ file before `@end`:
 
 ### luaWrapper.m
 
-If the `call` method is called with a state, then this state is used, otherwise the internal state. This is necessary for the next blogpost.
+If the `call` method is called with a state, then this state is used, otherwise the internal state. This is necessary for the next blog post.
 
 `lua_getglobal` sets the Lua function name on the stack, just like the `lua_pushnumber` method which sets the parameter. The `lua_pcall` method (see [lua\_pacall](https://www.lua.org/manual/5.3/manual.html#lua_call)) reads the parameter and function name and executes the Lua function. The result is written to the stack. The parameters in the `lua_pcall` method are the state, the number of passed parameters, the number of return values and a stack index in case of an error.
 
@@ -98,6 +100,8 @@ print(result)
 ```
 
 The `call` method — defined in the luaWrapper files — is called with the function name of the Lua function and the value which will be factorized. At the end the result is printed.
+
+For this example the factorial of 100! is 9.33262154439441e+157.
 
 ## Next
 
