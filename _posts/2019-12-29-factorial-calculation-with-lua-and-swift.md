@@ -2,9 +2,9 @@
 layout: post
 title: Factorial calculation with Lua and Swift
 date: 2019-12-29 17:29 +0100
-image: staircase-178039_1280.jpg
-credit: https://pixabay.com/de/photos/treppenhaus-schwarz-wei%C3%9F-treppe-178039/
-tags: factorial-calculation lua
+image: rollercoaster-801833_1280.jpg
+credit: https://pixabay.com/de/photos/rollercoaster-schleifen-unterhaltung-801833
+tags: factorial-calculation lua-embedded
 ---
 
 > The result of multiplying a given number of consecutive integers from 1 to the given number. In equations, it is symbolized by an exclamation mark (!). For example, 5! = 1 × 2 × 3 × 4 × 5 = 120. -- [Wiktionary — factorial](https://en.wiktionary.org/wiki/factorial)
