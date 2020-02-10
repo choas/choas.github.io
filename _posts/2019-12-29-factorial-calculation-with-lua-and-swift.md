@@ -101,7 +101,7 @@ print(result)
 
 The `call` method — defined in the luaWrapper files — is called with the function name of the Lua function and the value which will be factorized. At the end the result is printed.
 
-For this example the factorial of 100! is 9.33262154439441e+157.
+For this example the output of factorial 100! is 9.33262154439441e+157 (see [Wolfram Alpha](https://www.wolframalpha.com/input/?i=100%21) for the exact output).
 
 ## Next
 
