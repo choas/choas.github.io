@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Recursive calls between Lua and Swift
-date: 2019-12-30 14:39 +0100
-image: staircase-178039_1280.jpg
+title:  Recursive calls between Lua and Swift
+date:   2019-12-30 14:39 +0100
+image:  staircase-178039_1280.jpg
 credit: https://pixabay.com/de/photos/treppenhaus-schwarz-wei%C3%9F-treppe-178039/
-tags: lua-embedded swift-objective-c
+tags:   lua-embedded swift-objective-c
 ---
 
-> A common method of simplification is to divide a problem into subproblems of the same type. -- [Wikipedia - recursive](https://en.wikipedia.org/wiki/Recursion#In_computer_science)
+> A common method of simplification is to divide a problem into subproblems of the same type. -- [Wikipedia: recursive](https://en.wikipedia.org/wiki/Recursion#In_computer_science)
 
 In this third blog post (see also [blog post 1](https://www.larsgregori.xyz/2019/12/27/lua-and-swift-in-ios/), [blog post 2](/2019/12/29/factorial-calculation-with-lua-and-swift/)) we will register a Swift function within Lua so that it can be called from Lua. The Swift function can basically call anything. This allows Lua to execute certain things or access values that the embedded Lua can't, like the gyroscope of the smartphone. But we will just call the Lua factorial function again.
 

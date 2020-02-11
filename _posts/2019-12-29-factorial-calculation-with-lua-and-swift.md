@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Factorial calculation with Lua and Swift
-date: 2019-12-29 17:29 +0100
-image: rollercoaster-801833_1280.jpg
+title:  Factorial calculation with Lua and Swift
+date:   2019-12-29 17:29 +0100
+image:  rollercoaster-801833_1280.jpg
 credit: https://pixabay.com/de/photos/rollercoaster-schleifen-unterhaltung-801833
-tags: factorial-calculation lua-embedded
+tags:   factorial-calculation lua-embedded
 ---
 
-> The result of multiplying a given number of consecutive integers from 1 to the given number. In equations, it is symbolized by an exclamation mark (!). For example, 5! = 1 × 2 × 3 × 4 × 5 = 120. -- [Wiktionary — factorial](https://en.wiktionary.org/wiki/factorial)
+> The result of multiplying a given number of consecutive integers from 1 to the given number. In equations, it is symbolized by an exclamation mark (!). For example, 5! = 1 × 2 × 3 × 4 × 5 = 120. -- [Wiktionary: factorial](https://en.wiktionary.org/wiki/factorial)
 
 In the [previous blog post](/2019/12/27/lua-and-swift-in-ios/) I showed how Lua can be integrated within Swift. In this blog post we will call a Lua function from Swift and print the result. For this I use a [factorial](https://en.wikipedia.org/wiki/Factorial) example where the code is called recursively. In the next step / blog post the Lua code will call the Swift code, which again calls the Lua code. This is a recursion within programming languages 🤯.
 

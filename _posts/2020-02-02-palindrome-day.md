@@ -7,11 +7,11 @@ credit: https://pixabay.com/de/photos/newtons-wiege-eier-kugel-aktion-256213/
 tags:   code java
 ---
 
-> With palindromic number comes palindrome day. A Palindrome day which happens when the day’s date is observed be same when digits are reversed. 2 February 2020 is a palindrome day and most unique palindrome day as this day can be observed regardless of the date format by country because regardless of the dd-mm-yy or mm-dd-yy format. -- [Wikipedia](https://en.wikipedia.org/wiki/Palindrome#Numbers)
+> With palindromic number comes palindrome day. A Palindrome day which happens when the day’s date is observed be same when digits are reversed. 2 February 2020 is a palindrome day and most unique palindrome day as this day can be observed regardless of the date format by country because regardless of the dd-mm-yy or mm-dd-yy format. -- [Wikipedia: Palindrome](https://en.wikipedia.org/wiki/Palindrome#Numbers)
 
 To verify the palindrome day I wrote a Java programm:
 
-{% highlight java %}
+```java
 package net.choas.java;
 
 import java.text.ParseException;
@@ -55,21 +55,21 @@ public class PalindromeDay {
     SimpleDateFormat sdfEUOut = new SimpleDateFormat("dd.MM.yyyy");
     SimpleDateFormat sdfUSOut = new SimpleDateFormat("MM-dd-yyyy");
 
-    System.out.println("  EU: " + 
-              sdfEUOut.format(dateEU) + 
-              " " + 
+    System.out.println("  EU: " +
+              sdfEUOut.format(dateEU) +
+              " " +
               sdfEUOut.format(dateEUreverse));
-    System.out.println("  US: " + 
-              sdfUSOut.format(dateUS) + 
-              " " + 
+    System.out.println("  US: " +
+              sdfUSOut.format(dateUS) +
+              " " +
               sdfEUOut.format(dateUSreverse));
 
-    return dateEU.equals(dateEUreverse) && 
-        dateUS.equals(dateUSreverse) && 
+    return dateEU.equals(dateEUreverse) &&
+        dateUS.equals(dateUSreverse) &&
         dateEU.equals(dateUS);
   }
 }
-{% endhighlight %}
+```
 
 The _isPalindrome_ function takes the date and removes all dots and dashes. Based on this a reverse string is generated. Then a _SimpleDateFormat_ for "ddMMyyyy" and "MMddyyyy" converts both strings into a date. They are printed and at the end compared to each other to see if they are equal in their format and with the other. A palindrome tag returns "true".
 
@@ -92,10 +92,9 @@ false
 false
 ```
 
-<br />
 The following code finds all palindrome days within 10,000 years:
 
-{% highlight java %}
+```java
 Date d = new Date(-1900, 0, 1);
 while (d.getYear() < 10000 - 1900) {
   SimpleDateFormat sdfOut = new SimpleDateFormat("dd.MM.yyyy");
@@ -104,7 +103,7 @@ while (d.getYear() < 10000 - 1900) {
   }
   d.setDate(d.getDate() + 1);
 }
-{% endhighlight %}
+```
 
 ... and this is the result:
 
@@ -123,5 +122,4 @@ while (d.getYear() < 10000 - 1900) {
 09.09.9090
 ```
 
-<br />
-What happened that day? The Kansacity Chiefs 🏈 won the Superbowl (US time) and will probably be the only ones who won it on a palindrome day.
+What happened that day? The Kansacity Chiefs 🏈 won the [Super Bowl LIV](https://en.wikipedia.org/wiki/Super_Bowl_LIV) (US time) and will be the only ones who won it on a palindrome day.

@@ -4,10 +4,10 @@ title:  Lua and Swift in iOS
 date:   2019-12-27 10:01 +0100
 image:  full-moon-415501_1280.jpg
 credit: https://pixabay.com/de/photos/vollmond-mond-nacht-dunkel-schwarz-415501/
-tags:   Swift Lua
+tags:   swift lua
 ---
 
-> I looked at Lua which it's pretty easy to integrate and is highly optimized, but I really hate the syntax. There is just too much that is goofy about Lua. I like my { braces }. -- [Ron Gilbert — Engine](https://blog.thimbleweedpark.com/engine)
+> I looked at Lua which it's pretty easy to integrate and is highly optimized, but I really hate the syntax. There is just too much that is goofy about Lua. I like my { braces }. -- [Ron Gilbert: Engine](https://blog.thimbleweedpark.com/engine)
 
 This year I found the time to play [Thimbleweed Park](https://en.wikipedia.org/wiki/Thimbleweed_Park). A point-and-click adventure game by Ron Gilbert and Gary Winnick, who got famous for their 1987 game [Maniac Mansion](https://en.wikipedia.org/wiki/Maniac_Mansion). Ron Gilbert was also involved in [The Secret of Monkey Island](https://en.wikipedia.org/wiki/The_Secret_of_Monkey_Island) and the [SCUMM](https://en.wikipedia.org/wiki/SCUMM) game engine.
 
