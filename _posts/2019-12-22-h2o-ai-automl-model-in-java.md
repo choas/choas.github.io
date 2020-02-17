@@ -9,7 +9,7 @@ tags:   automl machine-learning
 
 > H2O’s AutoML can be used for automating the machine learning workflow, which includes automatic training and tuning of many models within a user-specified time limit. Stacked Ensembles will be automatically trained on collections of individual models to produce highly predictive ensemble models which, in most cases, will be the top performing models in the AutoML Leaderboard. -- [AutoML: Automatic Machine Learning](http://docs.h2o.ai/h2o/latest-stable/h2o-docs/automl.html)
 
-After this years [ML conference](https://mlconference.ai/) in Munich I wanted to try AutoML from H2O.ai. During the Christmas holidays I found some time and I took the Titanic dataset and tried different things. AutoML trains different models like XGBoost, TensorFlow, LightGBM or GLM. In the end I have a model that I can use in a Java application that recognizes if a person survived the Titanic disaster or not.
+After this years [ML conference](https://mlconference.ai/) in Munich I wanted to try AutoML from H2O.ai. During the Christmas holidays I found some time and I took the 🚢 Titanic dataset and tried different things. AutoML trains different models like XGBoost, TensorFlow, LightGBM or GLM. In the end I have a model that I can use in a Java application that recognizes if a person survived the Titanic disaster or not.
 
 I've divided this blog post into two parts. The first gives an overview of H2O and H2O Flow. The second shows how to use H2O in Python.
 
