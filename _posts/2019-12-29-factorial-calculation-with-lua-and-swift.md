@@ -58,7 +58,7 @@ Insert the following code into the __luaWrapper.h__ file before `@end`:
 
 ### luaWrapper.m
 
-If the `call` method is called with a state, then this state is used, otherwise the internal state. This is necessary for the next blog post.
+If the `call` method is called with a state, then this state is used, otherwise the internal state. This is necessary for the [next blog post](/2019/12/30/recursive-calls-between-lua-and-swift/).
 
 `lua_getglobal` sets the Lua function name on the stack, just like the `lua_pushnumber` method which sets the parameter. The `lua_pcall` method (see [lua\_pacall](https://www.lua.org/manual/5.3/manual.html#lua_call)) reads the parameter and function name and executes the Lua function. The result is written to the stack. The parameters in the `lua_pcall` method are the state, the number of passed parameters, the number of return values and a stack index in case of an error.
 
