@@ -105,4 +105,4 @@ For this example the output of factorial 100! is 9.33262154439441e+157 (see [Wol
 
 ## Next
 
-In this example I have shown how to call a Lua function in Swift and read the result. In the next blog post I show how to register a Swift function so that it can be used by Lua. Since we use a recursive function, I thought a recursion inside Lua and Swift might be interesting.
+In this example I have shown how to call a Lua function in Swift and read the result. In the [next blog post](2019/12/30/recursive-calls-between-lua-and-swift/) I show how to register a Swift function so that it can be used by Lua. Since we use a recursive function, I thought a recursion inside Lua and Swift might be interesting.
