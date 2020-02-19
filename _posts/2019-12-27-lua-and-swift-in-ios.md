@@ -11,7 +11,7 @@ tags:   swift lua
 
 This year I found the time to play [Thimbleweed Park](https://en.wikipedia.org/wiki/Thimbleweed_Park). A point-and-click adventure game by Ron Gilbert and Gary Winnick, who got famous for their 1987 game [Maniac Mansion](https://en.wikipedia.org/wiki/Maniac_Mansion). Ron Gilbert was also involved in [The Secret of Monkey Island](https://en.wikipedia.org/wiki/The_Secret_of_Monkey_Island) and the [SCUMM](https://en.wikipedia.org/wiki/SCUMM) game engine.
 
-In the blog post [Engine](https://blog.thimbleweedpark.com/engine) he writes "_I’m a game engine snob_" and that he uses [Squirrel](http://www.squirrel-lang.org/) instead of [Lua](https://en.wikipedia.org/wiki/Lua_(programming_language)). But due to the AoC I wanted to have another look into Lua and I had already embedded Lua before. Like Ron said: "_it's pretty easy to integrate_".
+In the blog post [Engine](https://blog.thimbleweedpark.com/engine) he writes "_I’m a game engine snob_" and that he uses [Squirrel](http://www.squirrel-lang.org/) instead of [Lua](https://en.wikipedia.org/wiki/Lua_(programming_language)). But due to the [Advent of Code 2019](/2019/12/20/aoc-advent-of-code-2019/) (AoC) I wanted to have another look into Lua and I had already embedded Lua before. Like Ron said: "_it's pretty easy to integrate_".
 
 For these reasons I decided to integrate Lua into an iOS app, because if I ever develop a game 🤣, I already have a game engine. There is no need to discuss the syntax, because this is a matter of taste. But the question I couldn't really answer is: Why should I bring an additional language into a project? However, in a game project with more than one or two people, this can make sense, but I'm not there yet.
 
