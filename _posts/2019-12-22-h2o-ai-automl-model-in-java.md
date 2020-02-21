@@ -116,4 +116,4 @@ Driverless AI provides an overview of H2O AutoML. H2O Flow uses AutoML to create
 
 ## Next
 
-What’s next? H2O is also available for Python, R, Scala and Java. In the next blog post I will use H2O with Python.
+What’s next? H2O is also available for Python, R, Scala and Java. In the [next blog post](/2019/12/23/h2o-automl-with-python-and-jupyter/) I will use H2O with Python.
