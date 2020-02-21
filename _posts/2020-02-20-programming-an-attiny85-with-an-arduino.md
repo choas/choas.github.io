@@ -47,10 +47,10 @@ ATTiny85 programmed and wired for blinking:
 As you can see in the __[source code]__ I have the following 5 flashing modes:
 
 - both LEDs blink at the same time
-- the LEDs flash alternately
-- the LEDs only light
-- the LEDs are off
-- the LEDs flash S.O.S.
+- LEDs flash alternately
+- LEDs only light
+- LEDs are off
+- LEDs flash S.O.S.
 
 ## Installation
 
