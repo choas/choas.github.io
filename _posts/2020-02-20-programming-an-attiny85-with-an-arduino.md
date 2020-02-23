@@ -60,7 +60,14 @@ After the ATTiny85 was programmed, I tested it first of course. For this purpose
 
 I put the LEDs through the paper and bent the feet, with the ATTiny85 too. Then I soldered everything with the resistor, added the USB cable and tested it. The USB cable is only for power supply. There are also examples to control [V-USB with ATtiny45 / ATtiny85 without a crystal]. This can be used for example to make the LEDs of the fire engine blink when a tweet with the text "fire" is received.
 
+All electronic parts soldered:
+![ATTiny85 soldered](/images/ATTiny85_soldered.jpg)
+
+The front of the coloring book with the blue LEDs and ATTiny85:
 ![ATTiny85 coloring book](/images/ATTiny85_coloring_book.jpg)
+
+The mode selector at the wiper:
+![ATTiny85 mode selector](/images/ATTiny85_mode_selector.jpg)
 
 ## Summary
 
