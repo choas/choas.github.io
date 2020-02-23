@@ -113,6 +113,7 @@ Driverless AI provides an overview of H2O AutoML. H2O Flow uses AutoML to create
 
 - [Automated machine learning](https://en.wikipedia.org/wiki/Automated_machine_learning)
 - [Taking an H2O Model to Production](http://projects.rajivshah.com/blog/2016/08/22/H2O_prod/)
+- [Predict Bad Loans With H2O Flow AutoML](https://dzone.com/articles/predict-bad-loans-with-h2o-flow-automl)
 
 ## Next
 
