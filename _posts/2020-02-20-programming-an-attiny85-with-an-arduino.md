@@ -9,7 +9,7 @@ tags:   attiny85 arduino
 
 > A microcontroller (MCU for microcontroller unit) is a small computer on a single metal-oxide-semiconductor (MOS) integrated circuit chip. -- [Wikipedia: Microcontroller]
 
-As a farewell gift for a colleague who is also a fireman, I thought of the following:
+As a farewell gift for a colleague who is also a fireman 👨‍🚒, I thought of the following:
 
 - I take a coloring book with a firefighter. In former times _Grisu der kleine Drache_ (Grisu the little dragon) was popular, today it is _Sam der Feuerwehrmann_ (Fireman Sam).
 - The book should show a fire truck with blue lights.
