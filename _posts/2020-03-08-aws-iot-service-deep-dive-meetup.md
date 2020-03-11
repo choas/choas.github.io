@@ -7,6 +7,8 @@ credit: https://pixabay.com/de/illustrations/lautsprecher-wireless-internet-iot-
 tags:   Meetup AWS-IoT
 ---
 
+> FreeRTOS is an open source, real-time operating system for microcontrollers that makes small, low-power edge devices easy to program, deploy, secure, connect, and manage. -- [Amazon FreeRTOS](https://aws.amazon.com/freertos/)
+
 The Internet of Things Meetup was on Wednesday:
 [AWS IoT Service Deep Dive with Vestner @ AWS Munich](https://www.meetup.com/IoTMunich/events/267957639/)
 
