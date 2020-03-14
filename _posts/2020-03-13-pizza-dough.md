@@ -20,9 +20,9 @@ First of all I need the ingredients for the dough, for this there is a [calculat
 - flour 526.95g
 - water 342.51g
 - salt 10.54g
-- dry yeast 0.26g (fresh yeast 0.79g)
+- dry yeast 0.26g (fresh yeast 0.79g) ... yes, these numbers are correct
 
-Everything is at home, except the flour, which requires a lot of protein. I had no problem finding flour, which can be a problem 🐹 these days.
+Everything is at home, except the flour, which requires a lot of protein. I had no problem finding flour, which can be a problem 🐹 these days. The flour has 12g of protein per 100g.
 
 ![flour](/images/dough_00_weizenmehl1050.jpg)
 
@@ -30,7 +30,7 @@ Everything is at home, except the flour, which requires a lot of protein. I had 
 
 Let’s start:
 
-- Mix all the ingredients
+- mix all the ingredients
 - watch the video [how to stretch and fold](https://youtu.be/zgz0oAhgwyg?t=303)
 - 0:30 first time stretch and fold
 - 1:00 2nd stretch and fold
@@ -42,6 +42,4 @@ Let’s start:
 
 ![stretch and fold - day 1](/images/dough_02_stretch_fold.jpg)
 
-## Day 2 - xx hours
-
-to be continued ...
+to be continued ... see [part 2](/2020/03/14/pizza-dough-part-2)
