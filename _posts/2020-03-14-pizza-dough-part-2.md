@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  Pizza Dough - Part 2
-date:   2020-03-14 09:16 +0100
+date:   2020-03-14 22:16 +0100
 image:  pizza-1150031_1280.jpg
 credit: https://pixabay.com/de/photos/pizza-vegetarische-pizza-k%C3%A4se-1150031/
 tags:   food pizza-dough
 ---
 
-> Yeasts are unicellular organisms that evolved from multicellular ancestors, with some species having the ability to develop multicellular characteristics by forming strings of connected budding cells known as pseudohyphae or false hyphae. --[Wikipedia: Yeast](https://en.wikipedia.org/wiki/Yeast)
+> Yeasts are unicellular organisms that evolved from multicellular ancestors, with some species having the ability to develop multicellular characteristics by forming strings of connected budding cells known as pseudohyphae or false hyphae. —[Wikipedia: Yeast](https://en.wikipedia.org/wiki/Yeast)
 
 Goodmorning dough, you rised nicely:
 
@@ -21,6 +21,8 @@ I continued with the [Pizza Dough](https://github.com/hendricius/pizza-dough) re
 
 ![dough balls](/images/dough_04_balls.jpg)
 
-## The last hour
+## The result
 
-...
+This is the result and it was tasty:
+
+![dough final](/images/dough_05_final.jpg)
