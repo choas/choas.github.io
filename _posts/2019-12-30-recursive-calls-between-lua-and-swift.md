@@ -9,7 +9,7 @@ tags:   lua-embedded swift-objective-c
 
 > A common method of simplification is to divide a problem into subproblems of the same type. -- [Wikipedia: recursive](https://en.wikipedia.org/wiki/Recursion#In_computer_science)
 
-In this third blog post (see also [blog post 1](https://www.larsgregori.xyz/2019/12/27/lua-and-swift-in-ios/), [blog post 2](/2019/12/29/factorial-calculation-with-lua-and-swift/)) we will register a Swift function within Lua so that it can be called from Lua. The Swift function can basically call anything. This allows Lua to execute certain things or access values that the embedded Lua can't, like the gyroscope of the smartphone. But we will just call the Lua factorial function again.
+In this third blog post (see also [blog post 1](https://www.larsgregori.de/2019/12/27/lua-and-swift-in-ios/), [blog post 2](/2019/12/29/factorial-calculation-with-lua-and-swift/)) we will register a Swift function within Lua so that it can be called from Lua. The Swift function can basically call anything. This allows Lua to execute certain things or access values that the embedded Lua can't, like the gyroscope of the smartphone. But we will just call the Lua factorial function again.
 
 There are a some more steps necessary, because we add an additional wrapper:
 
