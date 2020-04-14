@@ -4,7 +4,7 @@ title:  Lockdown Tip — Nurikabe Puzzle
 date:   2020-04-03 18:52 +0200
 image:  martin-sanchez-LNYdatC3znA-unsplash.jpg
 credit: https://unsplash.com/photos/LNYdatC3znA
-tags:   lockdown-tip, nurikabe
+tags:   lockdown-tip nurikabe
 ---
 
 > Nurikabe is a binary determination puzzle named for Nurikabe, an invisible wall in Japanese folklore that blocks roads and delays foot travel. — [Wikipedia: Nurikabe Puzzle](https://en.wikipedia.org/wiki/Nurikabe_(puzzle))
