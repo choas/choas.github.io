@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  Dvorak Game — TinyMUSH
-date:   2020-04-13 19:48 +0200
+date:   2020-04-14 19:48 +0200
 image:  mockup-2878906_1280.jpg
 credit: https://pixabay.com/de/photos/mock-up-wei%C3%9F-anmelden-gesch%C3%A4ft-2878906/
 tags:   dvorak-game games
 ---
 
-> Dvorak is a customizable card game that begins with a deck of blank index cards. These index cards … are written and drawn upon by players before or during the game. Alternatively, games of Dvorak can be played online via a MUSH … — [Wikipedia: Dvorak Game](https://en.wikipedia.org/wiki/Dvorak_(game))
+> Dvorak is a customizable card game that begins with a deck of blank index cards. These index cards … are written and drawn upon by players before or during the game. Alternatively, games of Dvorak can be played online via a MUSH … — [Wikipedia: Dvorak Game](https://en.wikipedia.org/wiki/Dvorak_(game))
 
 In the 📺 Big Bang Theory episode ([S3E5 - The Creepy Candy Coating Corollary](https://bigbangtheory.fandom.com/wiki/The_Creepy_Candy_Coating_Corollary)) Howard, Leonard, Raj, and Penny played the game [Mystic Warlords of Ka’a](https://bigbangtheory.fandom.com/wiki/Mystic_Warlords_of_Ka%27a). This is not a real game. It was developed for the series.
 

@@ -7,7 +7,7 @@ credit: https://pixabay.com/de/photos/start-start-up-menschen-593341/
 tags:   meetup RISC-V
 ---
 
-> RISC-V (pronounced "risk-five") is a free and open ISA enabling a new era of processor innovation through open standard collaboration. […] Born in academia and research, the RISC-V ISA delivers a new level of free, extensible software and hardware freedom on architecture, paving the way for the next 50 years of computing design and innovation. — [About the RISC-V Foundation](https://riscv.org/risc-v-foundation/)
+> RISC-V (pronounced "risk-five") is a free and open ISA enabling a new era of processor innovation through open standard collaboration. […] Born in academia and research, the RISC-V ISA delivers a new level of free, extensible software and hardware freedom on architecture, paving the way for the next 50 years of computing design and innovation. — [About RISC-V Foundation](https://riscv.org/risc-v-foundation/)
 
 The [Munich RISC-V First Meetup](https://www.meetup.com/Munich-RISC-V-Meetup-Group/events/268318683/) was last week. I had looked at RISC-V some time ago, but when [Chris Lattner](https://en.wikipedia.org/wiki/Chris_Lattner) went to SiFive earlier this year, I took a closer look at RISC-V. Chris Lattner is known for LLVM, Clang, Swift, Xcode and [other 😎 stuff](http://www.nondot.org/sabre/Resume.html).
 

@@ -7,7 +7,7 @@ credit: https://unsplash.com/photos/_pQyE6ac9w0
 tags:   CAD browser
 ---
 
-> OpenSCAD is a free software application for creating solid 3D CAD (computer-aided design) objects. It is a script-only based modeller that uses its own description language … — [Wikipedia: OpenSCAD](https://en.wikipedia.org/wiki/OpenSCAD)
+> OpenSCAD is a free software application for creating solid 3D CAD (computer-aided design) objects. It is a script-only based modeller that uses its own description language … — [Wikipedia: OpenSCAD](https://en.wikipedia.org/wiki/OpenSCAD)
 
 I just downloaded [OpenSCAD](http://www.openscad.org/) in the morning before I saw the [OpenJSCAD](https://openjscad.org/) link at Lobsters. Yes, it is nearly the same ... except that it runs in the browser. You can write OpenSCAD code and create an STL file that can be used for 3D printing.
 
