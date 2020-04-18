@@ -95,4 +95,4 @@ I did not find out how several players can play with TinyMUSH. Probably I have t
 
 Anyway I really like the concept behind the Dvorak Game and you can print out the decks and play it offline (with your family).
 
-Another Big Bang Theory Game: [rock paper scissors Spock lizard](https://en.wikipedia.org/wiki/Rock_paper_scissors#Additional_weapons)
+Another Big Bang Theory Game: [rock paper scissors Spock lizard](https://en.wikipedia.org/wiki/Rock_paper_scissors#Additional_weapons
