@@ -31,7 +31,7 @@ You can find the full rules on [dvorakgame.co.uk](http://www.dvorakgame.co.uk/in
 
 You can play Dvorak online with Telnet on a [MUSH](https://en.wikipedia.org/wiki/MUSH), in this case TinyMUSH. For this I created a Docker image and used the [amuskindu/TinyMUSH](https://github.com/amuskindu/TinyMUSH) fork:
 
-```text
+```dockerfile
 FROM ubuntu:20.04 AS build
 
 RUN apt-get update && apt-get install -y \
@@ -50,10 +50,6 @@ RUN autoreconf -ivf \
 ### only compiled files
 
 FROM ubuntu:20.04
-
-#RUN apt-get update && apt-get install -y \
-#    cproto \
-#    && rm -rf /var/lib/apt/lists/*
 
 COPY --from=build /TinyMUSH/game /TinyMUSH/game
 
