@@ -32,7 +32,7 @@ You can find the full rules on [dvorakgame.co.uk](http://www.dvorakgame.co.uk/in
 You can play Dvorak online with Telnet on a [MUSH](https://en.wikipedia.org/wiki/MUSH), in this case TinyMUSH. For this I created a Docker image and used the [amuskindu/TinyMUSH](https://github.com/amuskindu/TinyMUSH) fork:
 
 ```text
-FROM ubuntu:20.04
+FROM ubuntu:20.04 AS build
 
 RUN apt-get update && apt-get install -y \
     build-essential libtool \
@@ -42,14 +42,24 @@ RUN apt-get update && apt-get install -y \
 
 RUN git clone https://github.com/amuskindu/TinyMUSH
 
-WORKDIR TinyMUSH
+WORKDIR /TinyMUSH
 
 RUN autoreconf -ivf \
     && ./Build
 
+### only compiled files
+
+FROM ubuntu:20.04
+
+#RUN apt-get update && apt-get install -y \
+#    cproto \
+#    && rm -rf /var/lib/apt/lists/*
+
+COPY --from=build /TinyMUSH/game /TinyMUSH/game
+
 EXPOSE 6250
 
-WORKDIR game
+WORKDIR /TinyMUSH/game
 
 ENTRYPOINT bin/netmush
 ```
@@ -96,3 +106,7 @@ I did not find out how several players can play with TinyMUSH. Probably I have t
 Anyway I really like the concept behind the Dvorak Game and you can print out the decks and play it offline (with your family).
 
 Another Big Bang Theory Game: [rock paper scissors Spock lizard](https://en.wikipedia.org/wiki/Rock_paper_scissors#Additional_weapons)
+
+## Update
+
+I found out that `FROM` supports an `AS` parameter. I adjusted the Dockerfile which reduced the image size to 1/5. See more at [Dockerfile FROM AS — C64 Emulator](/2020/05/02/dockerfile-from-as-c64-emulator/).
