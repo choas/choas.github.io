@@ -109,4 +109,4 @@ Another Big Bang Theory Game: [rock paper scissors Spock lizard](https://en.wiki
 
 ## Update
 
-I found out that `FROM` supports an `AS` parameter. I adjusted the Dockerfile which reduced the image size to 1/5. See more at [Dockerfile FROM AS — C64 Emulator](/2020/05/02/dockerfile-from-as-c64-emulator/).
+I found out that `FROM` supports an `AS` parameter. I [adjusted the Dockerfile](https://github.com/choas/choas.github.io/commit/27fc3d7090058d145d277e24413e362ba967e1ad) which reduced the image size to 1/5. See more at [Dockerfile FROM AS — C64 Emulator](/2020/05/02/dockerfile-from-as-c64-emulator/).
