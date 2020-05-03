@@ -13,7 +13,7 @@ I just downloaded [OpenSCAD](http://www.openscad.org/) in the morning before I s
 
 When you open OpenJSCAD, there is already an example. I've scaled up the inner sphere / cube and moved it to the bottom:
 
-```c
+```OpenSCAD
 function main () {
   return union(
     difference(
