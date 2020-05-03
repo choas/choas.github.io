@@ -9,7 +9,7 @@ tags:   docker c64
 
 > The Commodore 64, also known as the C64 or the CBM 64, is an 8-bit home computer introduced in January 1982 by Commodore International -- [Wikipedia: Commodore 64]
 
-First, I looked at C64 emulators for STM32 boards and found a project: [Commodore 64 for STM32F429 Discovery board]. This project shows on the LCD display of a DISCO STM32F429ZI the output from a C64 emulator. Unfortunately, I do not have this board. Therefore, I looked at another project by Dave Van Wagner, where I can access a STM32 board (e.g. [NUCLEO STM32F401RE]) via a serial connection, on which a C64 emulator is running: [c-simple-emu6502-cbm]
+First, I looked at C64 emulators for STM32 boards and found a project: [Commodore 64 for STM32F429 Discovery board]. This project shows on the LCD display of a DISCO STM32F429ZI the output from a C64 emulator. Unfortunately, I do not have this board. Therefore, I looked at another project by [Dave Van Wagner], where I can access a STM32 board (e.g. [NUCLEO STM32F401RE]) via a serial connection, on which a C64 emulator is running: [c-simple-emu6502-cbm]
 
 ![C64 emulator in terminal](/images/c-simple-emu-cbm.png)
 
@@ -61,6 +61,7 @@ I got a note ([@mmaciaszek Tweet]), that there is a Commodore Basic for the comm
 [Wikipedia: Commodore 64]: https://en.wikipedia.org/wiki/Commodore_64
 [Commodore 64 for STM32F429 Discovery board]: https://techwithdave.davevw.com/2020/04/commodore-64-for-stm32f429-discovery.html
 [NUCLEO STM32F401RE]: https://www.st.com/en/evaluation-tools/nucleo-f401re.html
+[Dave Van Wagner]: https://github.com/davervw
 [c-simple-emu6502-cbm]: https://github.com/choas/c-simple-emu6502-cbm
 [docker-c64]: https://github.com/floooh/docker-c64
 [Dockerfile]: https://github.com/floooh/docker-c64/blob/master/Dockerfile
