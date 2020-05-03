@@ -7,6 +7,8 @@ credit: https://pixabay.com/de/photos/commodore-c-64-computer-tastatur-528139/
 tags:   docker c64
 ---
 
+> The Commodore 64, also known as the C64 or the CBM 64, is an 8-bit home computer introduced in January 1982 by Commodore International -- [Wikipedia: Commodore 64]
+
 First, I looked at C64 emulators for STM32 boards and found a project: [Commodore 64 for STM32F429 Discovery board]. This project shows on the LCD display of a DISCO STM32F429ZI the output from a C64 emulator. Unfortunately, I do not have this board. Therefore, I looked at another project by Dave Van Wagner, where I can access a STM32 board (e.g. [NUCLEO STM32F401RE]) via a serial connection, on which a C64 emulator is running: [c-simple-emu6502-cbm]
 
 ![C64 emulator in terminal](/images/c-simple-emu-cbm.png)
@@ -52,6 +54,11 @@ BASIC is so 🤓 with the line numbers and GOTOs you can write [Spaghetti code] 
 20 PRINT "END"
 ```
 
+## Update
+
+I got a note ([@mmaciaszek Tweet]), that there is a Commodore Basic for the command line: [cbmbasic]
+
+[Wikipedia: Commodore 64]: https://en.wikipedia.org/wiki/Commodore_64
 [Commodore 64 for STM32F429 Discovery board]: https://techwithdave.davevw.com/2020/04/commodore-64-for-stm32f429-discovery.html
 [NUCLEO STM32F401RE]: https://www.st.com/en/evaluation-tools/nucleo-f401re.html
 [c-simple-emu6502-cbm]: https://github.com/choas/c-simple-emu6502-cbm
@@ -62,3 +69,5 @@ BASIC is so 🤓 with the line numbers and GOTOs you can write [Spaghetti code] 
 [CPC 464]: https://en.wikipedia.org/wiki/Amstrad_CPC_464
 [FROM AS]: https://docs.docker.com/engine/reference/builder/#from
 [Spaghetti code]: https://en.wikipedia.org/wiki/Spaghetti_code
+[@mmaciaszek Tweet]: https://twitter.com/mmaciaszek/status/1256576102530719744
+[cbmbasic]: https://github.com/mist64/cbmbasic
