@@ -9,11 +9,11 @@ permalink: pretty
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-feed
   - jekyll/tagging
 
-paginate: 5
+paginate: 6
 paginate_path: "/page/:num"
-
 
 # Pages Path
 defaults:
@@ -24,7 +24,6 @@ defaults:
 
 include:
   - _pages
-
 
 # Tags
 tag_page_layout:      tag_page
