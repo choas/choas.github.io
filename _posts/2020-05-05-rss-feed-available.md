@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  RSS Feed Available
+title:  RSS Feed available
 date:   2020-05-05 22:47 +0200
 image:  reading-925589_1280.jpg
 credit: https://pixabay.com/de/photos/lesung-buch-m%C3%A4dchen-frau-menschen-925589/
