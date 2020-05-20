@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Dockerfile FROM AS — C64 Emulator
-date:   2020-05-02 00:19 +0200
+date:   2020-05-02 04:19 +0200
 image:  commodore-528139_1280.jpg
 credit: https://pixabay.com/de/photos/commodore-c-64-computer-tastatur-528139/
 tags:   docker c64
