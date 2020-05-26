@@ -47,4 +47,4 @@ I don't have Facebook, maybe someone will test it and answer me with a screensho
 [Twitter Cards and Open Graph]: https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#twitter-cards-and-open-graph
 [Optimize Tweets with Cards]: https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started
 [head.html adaptions]: https://github.com/choas/choas.github.io/commit/66462ece41f128df8fbd344792cfc2510d0d5b44
-[tweet]:
+[tweet]: https://twitter.com/choas/status/1265383243504857098
