@@ -150,7 +150,7 @@ The Mandelbrot Set program writes directly into the Color RAM. But this is handl
 
 The output with the big dots looks like this:
 
-![C64 VICE emulator 16 colors](/images/mandelbrot_16colors.png)
+![C64 Mandelbrot Set 1st run](/images/mandelbrot_c64_app_run1.png)
 
 To represent different areas within the Mandelbrot Set, I thought that if I double-tapped on the image, I would calculate a new representation. For this I have to pass the parameters to the BASIC application.
 
