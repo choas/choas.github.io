@@ -20,13 +20,8 @@ First activate I2C. I use [raspbian](https://www.raspberrypi.org/downloads/raspb
 Then install the _i2c-tools_ library:
 
 ```bash
-sudo apt install -y i2c-tools
-```
-
-… and, since I have setup the Raspberry Pi fresh, I still need _pip3_:
-
-```bash
-sudo apt-get -y install python3-pip
+sudo apt-get update && sudo apt-get upgrade
+sudo apt-get install -y i2c-tools
 ```
 
 ## Connect AlphaNum Display
@@ -57,7 +52,13 @@ The display uses address 0x70.
 
 ## Source Code
 
-First we need the Python libraries:
+First we need the Python libraries and since I have setup the Raspberry Pi fresh, I need _pip3_:
+
+```bash
+sudo apt-get -y install python3-pip
+```
+
+… and then the Python libraries:
 
 ```bash
 pip3 install adafruit-circuitpython-ht16k33
