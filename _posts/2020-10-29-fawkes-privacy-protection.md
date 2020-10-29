@@ -5,7 +5,7 @@ date:    2020-10-29 21:12 +0100
 image:   blonde-629726_1280.jpg
 credit:  https://pixabay.com/de/photos/blondine-m%C3%A4dchen-einnahme-foto-629726/
 tags:    privacy machine-learning
-excerpt: Fawkes is "a system that helps individuals inoculate their images against unauthorized facial recognition models. Fawkes achieves this by helping users add imperceptible pixel-level changes (we call them “cloaks”) to their own photos before releasing them."
+excerpt: Fawkes is a system that helps individuals inoculate their images against unauthorized facial recognition models. Fawkes achieves this by helping users add imperceptible pixel-level changes (we call them “cloaks”) to their own photos before releasing them.
 ---
 
 > Fawkes is a privacy protection system developed by researchers at SANDLab, University of Chicago. — [Fawkes](https://pypi.org/project/fawkes/)
