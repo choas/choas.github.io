@@ -4,6 +4,7 @@ title:   Docker CocoaPods
 date:    2020-09-03 21:57 +0200
 image:   pattern-2982849_1280.jpg
 credit:  https://pixabay.com/photos/pattern-backgrounds-abstract-red-2982849/
+tags:    docker ios-dev
 excerpt: My CocoaPods is broken, and I used a Docker image as temporary solution to install some pods for an iOS sample application.
 ---
 

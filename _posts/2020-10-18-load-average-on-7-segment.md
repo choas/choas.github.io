@@ -4,6 +4,7 @@ title:   Load Average on 7-Segment
 date:    2020-10-18 13:09 +0200
 image:   truck-1030846_1280.jpg
 credit:  https://pixabay.com/de/photos/lkw-transport-logistik-1030846/
+tags:    electronic raspberry-pi
 excerpt: Displaying the load average of a Raspberry Pi on AlphaNum display via I2C
 ---
 

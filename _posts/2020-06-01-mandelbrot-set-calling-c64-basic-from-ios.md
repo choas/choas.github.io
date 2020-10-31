@@ -3,6 +3,7 @@ layout:  post
 title:   Mandelbrot Set — Calling C64 BASIC from iOS
 date:    2020-06-01 12:14 +0200
 image:   mandelbrot_c64_app_run1.png
+tags:    C64 iOS
 excerpt: A mathematics phenomenon known as the Mandelbrot Set can provide the basis for some stunning computer graphics. — “Compute! Magazine Issue 074”
 ---
 

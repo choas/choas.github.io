@@ -4,6 +4,7 @@ title:   Raspberry Pi and Docker
 date:    2020-10-31 09:29 +0100
 image:   forklift-835340_1280.jpg
 credit:  https://pixabay.com/de/photos/gabelstapler-lagerhaus-maschine-835340/
+tags:    docker raspberry-pi
 excerpt: If the Raspberry Pi should say goodbye, I only need to know how to start the Docker image.
 ---
 
