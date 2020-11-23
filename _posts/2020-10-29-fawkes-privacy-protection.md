@@ -25,7 +25,7 @@ If they try to identify you by giving the model an unaltered / "un camouflaged" 
 
 Fawkes is a software tool that runs locally on your computer. Here is the result of a modification and of course I will not show the original picture 🕵️‍♂️:
 
-![me cloaked](/images/fawkes_low_cloaked.jpg)
+![me cloaked](/images/fawkes_low_cloaked.png)
 
 This image is generated with:
 
