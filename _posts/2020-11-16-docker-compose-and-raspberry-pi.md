@@ -40,7 +40,7 @@ The article [A Docker/docker-compose setup with Redis and Node/Express](https://
 
 The [docker-compose.yml](https://github.com/HugoDF/express-redis-docker/blob/master/docker-compose.yml) file from the example looks like this:
 
-```bash
+```YAML
 redis:
   image: redis
   container_name: cache
@@ -76,7 +76,7 @@ The command entry contains the instructions that are executed inside the contain
 
 The _app_ uses the following [Dockerfile](https://github.com/HugoDF/express-redis-docker/blob/master/Dockerfile), which uses a long-term support (LTS) node container and specifies the _WORKDIR_ which is mounted inside the docker-compose.yml file to the current directory.
 
-```bash
+```Docker
 FROM node:lts
 # Or whatever Node version/image you want
 WORKDIR '/var/www/app'
@@ -90,13 +90,13 @@ In the docker-compose.yml example both _expose_ and _ports_ are listed. What is 
 
 With _[ports](https://docs.docker.com/compose/compose-file/#ports)_ the container publishes the port to the host machine and can be reached from there. The configured port of the host machine accesses the corresponding port on the application in the Docker container.
 
-Docker Compose creates its own network which can be seen with `docker network ls`. The communication is only inside this network. So, you don't have to worry about open ports. The respective application names are used for the hostname. With this hostname you can reach them, but only within the Docker network.
+Docker Compose creates its own network which can be seen with `docker network ls`. The communication is only inside this network. So, you don't have to worry about open 🔓 ports. The respective application names are used for the hostname. With this hostname you can reach them, but only within the Docker network.
 
 ### The Application
 
 The application has two REST interfaces. With `/store/:key?query` the _query_ is stored as value of the key in the redis database. `/:key` reads the key from the redis database and returns the value.
 
-```bash
+```JavaScript
 const redisClient = require('./redis-client');
 
 app.get('/store/:key', async (req, res) => {
