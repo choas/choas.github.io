@@ -4,7 +4,7 @@ title:   Docker Compose and Nginx
 date:    2020-11-24 21:15 +0100
 image:   track-2906667_1280.jpg
 credit:  https://pixabay.com/photos/track-railroad-track-rails-railway-2906667/
-tags:    docker-compose raspberry-pi
+tags:    docker-compose nginx
 excerpt: In this example I split a webservice into two applications and merge them together with Nginx. I also use docker-compose.
 ---
 
@@ -46,7 +46,7 @@ app:
     sh -c 'npm i && node server.js'
 ```
 
-I leave the Redis container untouched and split the app into _app-set_ and _app-get_ and adjust the 'command' entry:
+I leave the Redis container untouched and split ✂️ the app into _app-set_ and _app-get_ and adjust the 'command' entry:
 
 ```YAML
 app-set:
