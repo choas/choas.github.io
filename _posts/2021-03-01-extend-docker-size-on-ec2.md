@@ -10,7 +10,7 @@ excerpt: In this blog post I describe how to extend the size of Docker on an EC2
 
 > Docker is a set of platform as a service (PaaS) products that use OS-level virtualization to deliver software in packages called containers. -- [Wikipedia: Docker](https://en.wikipedia.org/wiki/Docker_(software))
 
-I have started an AWS machine to build Dockerfiles. The advantage is that the necessary Docker images are downloaded _amazingly_ fast on AWS. The other advantage is that the whole thing can run without blocking my working machine.
+I have started an AWS machine to build Dockerfiles. The advantage is that the necessary Docker images are downloaded _amazingly_ 🤩 fast on AWS. The other advantage is that the whole thing can run without blocking my working machine.
 Unfortunately, I had selected a default machine with only 8 GByte. Writing a Dockerfile which first runs a build process and then the proper image can fill up the disk quickly. Therefore, I had to cleaned up everything before I started the next build. If I forget it, then the build started and stopped after a certain amount of time with "no space left". Originally this solution should make things faster and not cause additional work.
 
 One advantage of cloud computing is that you can simply [mount](https://devopscube.com/mount-ebs-volume-ec2-instance/) an additional disk into the system. But this alone does not help, since Docker still uses the directory from the 8 GByte disk.
