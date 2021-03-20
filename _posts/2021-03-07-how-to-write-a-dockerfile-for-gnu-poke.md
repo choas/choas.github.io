@@ -8,10 +8,7 @@ tags:    dockerfile gnu-poke
 excerpt: In this blog post I describe how I've created a Dockerfile for gnu-poke.
 ---
 
-> GNU poke is an interactive, extensible editor for binary data.  Not
-limited to editing basic entities such as bits and bytes, it provides
-a full-fledged procedural, interactive programming language designed
-to describe data structures and to operate on them. -- [gnu-poke](http://www.jemarch.net/poke)
+> GNU poke is an interactive, extensible editor for binary data.  Not limited to editing basic entities such as bits and bytes, it provides a full-fledged procedural, interactive programming language designed to describe data structures and to operate on them. -- [gnu-poke](http://www.jemarch.net/poke)
 
 [gnu-poke](http://www.jemarch.net/poke) 1.0 was [released](http://www.jemarch.net/poke-1.0-relnotes.html), but I didn't find a corresponding package for any Linux distribution. So I build my own version and wrote a Dockerfile for it.
 
