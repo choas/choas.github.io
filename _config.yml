@@ -1,7 +1,6 @@
 title: I'm Lars
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.larsgregori.de" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: choas
 github_username:  choas
 
 # Build settings
