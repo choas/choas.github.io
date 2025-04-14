@@ -81,6 +81,8 @@ Based on the DXF file, I could design the keyboard with Fusion 360 and then 3D-p
 
 I am using [Dvorak](https://en.wikipedia.org/wiki/Dvorak_keyboard_layout) as my daily keyboard layout. This has the advantage that the most-used keys are on the home row. Therefore, eight of the most-used keys are easily accessible with my keyboard. The other key mappings (as you can see in the cheat sheet) focus on frequently used keys. This might need some adjustments because pressing all keys together with the spacebar results in a 'Z' and without it in a 'Q'. This combination is easy to remember but not commonly used.
 
+![typing hello world](/images/5keys_helloworld.gif)
+
 After some practice, typing became easier, but it will take time to get fully comfortable. I also need to add a backspace key —maybe I should place Q and Z somewhere else.
 
 ## Summary
