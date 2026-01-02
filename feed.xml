@@ -24,7 +24,7 @@ layout: null
     {% if post.excerpt %}
     <summary type="html"><![CDATA[{{ post.excerpt | strip_html | truncate: 300 }}]]></summary>
     {% endif %}
-    <content type="html"><![CDATA[{{ post.content }}]]></content>
+    <content type="html"><![CDATA[{% if post.image %}<img src="{{ site.url }}/images/{{ post.image }}" alt="{{ post.title }}" />{% endif %}{{ post.content }}]]></content>
     {% if post.author %}
     <author>
       <name>{{ post.author | xml_escape }}</name>
