@@ -6,3 +6,4 @@ Gemfile.lock
 .jekyll-cache
 *~
 BAK
+.cache
