@@ -3,7 +3,7 @@ layout:  post
 title:   The T in vibe coding stands for testing
 date:    2026-01-02 10:00 +0100
 image:   robot_with_red_eyes.jpg
-credit:  Nano Banana Pro: A robot/AI assistant with glowing red eyes, puppet strings attached, or zombie-like decay - visualizing the "co-opted agent" concept; use as image size 1168x768
+credit:  Nano Banana Pro - A robot/AI assistant with glowing red eyes, puppet strings attached, or zombie-like decay - visualizing the "co-opted agent" concept; use as image size 1168x768
 tags:    AI Security Vibe_Coding LLM
 excerpt: Vibe coding's dirty secret - AI-generated tests only prove the code does what the AI thought it should do. At 39C3, security researcher Johann Rehberger showed it's worse than that. Prompt injection attacks can turn your AI coding assistant into a ZombAI, and the tests will still be green.
 

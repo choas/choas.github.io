@@ -3,7 +3,7 @@ layout:  post
 title:   "The T in vibe coding stands for testing (Part 2): What independence actually means"
 date:    2026-01-06 09:00 +0100
 image:   robot_with_red_eyes_part2.jpg
-credit:  Nano Banana Pro: A robot/AI assistant with glowing red eyes, puppet strings attached, or zombie-like decay - visualizing the "circular validation" concept; use as image size 1168x768
+credit:  Nano Banana Pro - A robot/AI assistant with glowing red eyes, puppet strings attached, or zombie-like decay - visualizing the "circular validation" concept; use as image size 1168x768
 tags:    AI Security Vibe_Coding LLM Testing
 excerpt: "Using a different LLM for testing sounds like it would create independence. It doesn't. The moment any model sees your implementation, it reasons about what the code does, not what it should do. Real independence requires different information sources, not different systems."
 
